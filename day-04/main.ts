@@ -2,7 +2,7 @@ if (import.meta.main) {
   part02();
 }
 
-function part01() {
+function _part01() {
   const file_input = Deno.readTextFileSync("input.txt");
   const content = file_input.split(/\s+/);
 
